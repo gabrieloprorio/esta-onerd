@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cargos</title>
+    <style>
+    
+    form {
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    margin-top: 20px; /* Adiciona espaço acima do botão */
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+    
+    
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            
+        }
+
+        .logo-servidor {
+            position: absolute;
+            top: -50px;
+            right: 250px;
+            width: 100px;
+            border-radius: 50px;
+        }
+
+         img {
+            width: 100px; 
+            border-radius: 50px;  
+            margin: 20px auto; /* Adiciona margem e centraliza horizontalmente */
+        }
+    </style>
+</head>
+<body>
+    <img src="img/evolução_discord.png" alt="Logo do servidor de discord">
+    <h1>Bem-vindo ao nosso servidor!</h1>
+    <p>Descubra os benefícios de se juntar à nossa comunidade.</p>
+    
+    
+   <form>
+    <label for="nome">Nome conta:</label>
+    <input type="text" id="nome" name="nome">
+
+    <label for="email">idade:</label>
+    <input type="text" id="idade" name="idade">
+
+    <label for="senha">codigo de acesso:</label>
+    <input type="password" id="senha" name="senha">
+
+    <label>feminino:</label>
+    <input type="radio" name="genero" value="masculino"> Masculino
+    <input type="radio" name="genero" value="feminino"> 
+
+    <button type="submit">Enviar</button>
+</form>
+
+    
+</body>
+</html>
